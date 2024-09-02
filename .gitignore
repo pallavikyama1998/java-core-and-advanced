@@ -1,0 +1,8 @@
+.gitattributes
+.DS_Store
+In28Minutes/.DS_Store
+In28Minutes/git/.DS_Store
+In28Minutes/eclipse-workspace/.DS_Store
+In28Minutes/eclipse-workspace/.metadata
+In28Minutes/eclipse-workspace/java-for-beginners/.project
+
