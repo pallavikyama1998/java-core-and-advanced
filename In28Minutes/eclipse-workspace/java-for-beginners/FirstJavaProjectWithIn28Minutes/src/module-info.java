@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module FirstJavaProjectWithIn28Minutes {
+}
