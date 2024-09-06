@@ -59,25 +59,4 @@ public class BiNumber {
 
 		return lcm;
 	}
-
-	public int calculateLCMUsingForLoop() {
-		if (number1 < 0 || number2 < 0)
-			return -1;
-		if (number1 == 0 || number2 == 0)
-			return 0;
-
-		int max = Math.max(number1, number2), lcm = max;
-		boolean isCommonMultiple = (lcm % number1 == 0) && (lcm % number2 == 0);
-
-		for (lcm = max; !isCommonMultiple; lcm += max)
-			// System.out.println(lcm % number1);
-//			System.out.println(lcm % number2);
-//			System.out.println(lcm % number1 == 0);
-//			System.out.println(lcm % number2 == 0);
-//			System.out.println((lcm % number1 == 0) && (lcm % number2 == 0));
-			if ((lcm % number1 == 0) && (lcm % number2 == 0))
-				return lcm;
-
-		return lcm;
-	}
 }
