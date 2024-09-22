@@ -54,7 +54,7 @@ public class BiNumber {
 		while (lcm % number1 != 0 || lcm % number2 != 0) {
 			lcm += max;
 			if (lcm % number1 == 0 && lcm % number2 == 0)
-				break;
+				return lcm;
 		}
 
 		return lcm;
